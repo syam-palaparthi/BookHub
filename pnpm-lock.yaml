@@ -24,6 +24,7 @@ specifiers:
   react-dom: 17.0.1
   react-icons: 4.2.0
   react-loader-spinner: 4.0.0
+  react-native-phone-call: 1.2.0
   react-rating-stars-component: 2.2.0
   react-router-dom: 5.3.0
   react-scripts: 4.0.3
@@ -48,6 +49,7 @@ dependencies:
   react-dom: 17.0.1_react@17.0.1
   react-icons: 4.2.0_react@17.0.1
   react-loader-spinner: 4.0.0_react-dom@17.0.1+react@17.0.1
+  react-native-phone-call: 1.2.0
   react-rating-stars-component: 2.2.0
   react-router-dom: 5.3.0_react@17.0.1
   react-select: 4.3.1_react-dom@17.0.1+react@17.0.1
@@ -10459,6 +10461,10 @@ packages:
       prop-types: 15.7.2
       react: 17.0.1
       react-dom: 17.0.1_react@17.0.1
+    dev: false
+
+  /react-native-phone-call/1.2.0:
+    resolution: {integrity: sha512-M1CiocX8w7YNsh3Cwcnwc3eUkIJOPaBIQji3P9Uv/ZWAwb6XGI2NtV2UBSAa4Prvn6ooXeFPZs/YXmeTHmVHKg==}
     dev: false
 
   /react-rating-stars-component/2.2.0:

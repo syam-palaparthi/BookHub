@@ -5,6 +5,8 @@ import {
   FaGithub,
   FaInstagram,
   FaYoutube,
+  FaPhoneSquareAlt,
+  FaWhatsappSquare,
 } from 'react-icons/fa'
 import HeaderContext from '../../context/HeaderContext'
 import './index.css'
@@ -24,6 +26,24 @@ const Footer = () => (
               className="footer-icon-button"
             >
               <FaGoogle className={`footer-icon ${footerDarkText}`} />
+            </a>
+            <a
+              href="tel:9704305318"
+              target="__blank"
+              rel="noopener noreferrer"
+              type="button"
+              className="footer-icon-button"
+            >
+              <FaPhoneSquareAlt className={`footer-icon ${footerDarkText}`} />
+            </a>
+            <a
+              href="https://wa.me//+919704305318"
+              target="__blank"
+              rel="noopener noreferrer"
+              type="button"
+              className="footer-icon-button"
+            >
+              <FaWhatsappSquare className={`footer-icon ${footerDarkText}`} />
             </a>
             <a
               href="https://www.linkedin.com/in/syamson-palaparthi"

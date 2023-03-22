@@ -9,7 +9,14 @@ const FavoriteItem = props => (
     {value => {
       const {removeFavorites, isDarkTheme} = value
       const {cartItemDetails} = props
-      const {id, title, authorName, readStatus, coverPic} = cartItemDetails
+      const {
+        id,
+        title,
+        authorName,
+        readStatus,
+        coverPic,
+        status,
+      } = cartItemDetails
 
       const onRemoveCartItem = () => {
         removeFavorites(id)
@@ -44,7 +51,7 @@ const FavoriteItem = props => (
                 <p
                   className={`favorite-book-status-text ${darkThemeDescription}`}
                 >
-                  Status:{' '}
+                  Status:{status}
                   <span className="favorite-book-status">{readStatus}</span>
                 </p>
                 <button
